@@ -1,0 +1,154 @@
+.wrapper{
+  color:#fcf6f6;
+  font-weight: 300;
+  height: 10rem;
+}
+.wrapper .tiposDeAmeacas{
+  display: flex;
+  flex-flow: column wrap;
+  font-size: .5rem;
+  padding: .5rem;
+  width: 8rem;
+}
+ .tiposDeAmeacas .span1::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(75, 140, 238);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+ .tiposDeAmeacas .span2::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(1, 158, 48);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+ .tiposDeAmeacas .span3::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(230, 168, 0);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+ .tiposDeAmeacas .span4::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(243, 15, 15);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+ .tiposDeAmeacas .span5::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(188, 58, 228);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+ .tiposDeAmeacas .span6::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(75, 140, 238);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+ .tiposDeAmeacas .span7::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(23, 233, 152);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+ .tiposDeAmeacas .span8::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(228, 168, 4);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+.totalSmall{
+  color:#fcf6f6;
+  font-weight: 300;
+}
+ .tiposDeAmeacas .span9::before{
+  display: inline-block;
+  content: '';
+  height: .3rem;
+  width: .3rem;
+  background-color: rgb(243, 15, 15);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+.ameacasText{
+  color: #99A19A;
+  font-weight: 200;
+}
+.iconAmeacas2,
+.iconAmeacas1{
+  color: #99A19A;
+  font-size:.8rem;
+}
+.ameacasDetetada{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  font-size: .8rem;
+  border: 1px solid red;
+  width: 10rem;
+}
+.iconAmeacas1::before{
+  content: '';
+  display: inline-block;
+  height: .5rem;
+  width: .5rem;
+  background-color: rgb(228, 168, 4);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+.iconAmeacas2::before{
+  content: '';
+  display: inline-block;
+  height: .5rem;
+  width: .5rem;
+  background-color: rgba(196, 196, 32, 0.911);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+.progressBar{
+  position: relative;
+}
+.progressBar .contagem{
+  position: absolute;
+  font-size: 1rem;
+  color: #99A19A;
+  top: 30px;
+  left: 40px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+ .contagem .iconChecked{
+  font-size: 1.2rem;
+ color: #057412
+}
+ .contagem .iconError{
+  font-size: 1.2rem;
+ color: rgb(243, 15, 15)
+}

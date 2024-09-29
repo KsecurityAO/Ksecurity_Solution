@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+ --first-color:#ffff;
+ --second-color:#99A19A;
+ --first-bg-color:#011403;
+ --second-bg-color:#1A2C1C;
+ --bg-color-login:#355438;
+ --font-text:'Poppins', Helvetica, sans-serif;
+ * {
+    box-sizing: border-box;
+  }
+}
+body{
+  font-size: 1rem;
+  font-family: var(--font-text);
+  background-color: var(--first-bg-color);
+  color: var(--first-color);
+}
+h1,
+h2,
+h3,
+h4,
+p{
+    display: block;
+    margin:0;
+    padding: 0;
+}
+
+ul,
+li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+button,
+input{
+    display: block;
+    border: none;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.container{
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-block: 1rem;
+}
+.animateForm{
+    transform: translateY(-30px);
+    animation: animateForm .3s normal forwards;
+    opacity: 0;
+}
+/* Menu Active */
+a .active{
+  background-color:#011403 ;
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  border-left: 2px solid #fcf6f6;
+  color: #fcf6f6;
+}
+
+.wrapperApp{
+  background:linear-gradient(rgba(1, 20, 3,.9), rgba(1, 20, 3,.8)), url('./Assets/bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes animateForm {
+  to{
+    transform: initial;
+    opacity: 1;
+  }
+}

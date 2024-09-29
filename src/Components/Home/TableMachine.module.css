@@ -1,0 +1,20 @@
+ .table{
+padding: 1rem;
+} 
+.cabecalho{
+  color:#fcf6f6;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+  text-align: left;
+}
+.colorBodyTable{
+  color:#99A19A;
+  font-size:.8rem;
+}
+.iconSystem{
+  font-size:.8rem
+}
+.hedaTable{
+  color:#99A19A;
+}
