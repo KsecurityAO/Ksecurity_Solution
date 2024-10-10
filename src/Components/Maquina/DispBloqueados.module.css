@@ -1,0 +1,18 @@
+.dispositivos{
+    max-width: 68rem;
+    margin: 0 auto;
+}
+.title{
+    font-weight:200;
+    font-size: 1rem;
+}
+.dispo1 .user{
+    font-weight: 200;
+}
+.dispo1 .cardBody{
+    font-weight: 300;
+}
+.dispo1 .btnLogs{
+    font-weight: 200;
+    font-size: .9rem;
+}

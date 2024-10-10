@@ -1,0 +1,89 @@
+
+.spanIcon{
+  background-color: #057412;
+  border-radius: 4rem;
+  font-size: 3rem;
+  padding: .4rem;
+}
+.ameacasText{
+  color: #99A19A;
+  font-weight: 200;
+}
+.iconAmeacas2,
+.iconAmeacas1{
+  color: #99A19A;
+  font-size:.8rem;
+}
+.iconAmeacas1::before{
+  content: '';
+  display: inline-block;
+  height: .5rem;
+  width: .5rem;
+  background-color: rgb(75, 140, 238);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+.iconAmeacas2::before{
+  content: '';
+  display: inline-block;
+  height: .5rem;
+  width: .5rem;
+  background-color: rgb(188, 58, 228);
+  border-radius: .5rem;
+  margin-right: .2rem;
+}
+
+.totalSmall{
+  color:#fcf6f6;
+  font-weight: 300;
+}
+.ameacasTop{
+  font-family: 'Poppins';
+  height: 20rem;
+  width: 34rem;
+}
+@media (max-width:42rem){
+   .container{
+    width: 100%;
+   }
+ 
+  .ameacasTop{
+    font-family: 'Poppins';
+    width: 25rem;
+   
+  }
+ 
+  .container .wrapperAmecasTop{
+    display: block;
+    display: none;
+  }
+}
+@media (max-width:56rem){
+  .ameacasTop{
+    width: 25rem;
+    height: 15rem;
+  }
+}
+/* End Container */
+
+.progressBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.progressBar .contagem{
+  
+  font-size: 1rem;
+  color: #99A19A;
+  position: fixed;
+  
+}
+ .contagem .iconChecked{
+  font-size: 1.2rem;
+ color: #057412
+}
+ .contagem .iconError{
+  font-size: 1.2rem;
+ color: rgb(243, 15, 15)
+}

@@ -1,0 +1,101 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+    width: 100%;
+  
+}
+.wrapperNotMenu{
+    display: grid;
+    grid-template-columns:1fr;
+    width: 100%;
+}
+
+/* Barra Lateral */
+.wrapper .navBarLeft{
+    background-color:#1A2C1C;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.5rem;
+}
+
+.wrapper .navBarLeft .title{
+   display: flex;
+   justify-content: center;
+   padding-top: .8rem;
+   align-items: center;
+   gap:1rem;
+}
+/* .wrapper .navBarLeft .title::after{
+ content: '';
+ display: block;
+ width: 100%;
+ height: 1px;
+ background-color: #fcf6f6;
+} */
+.wrapper .navBarLeft .picture{
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid #99A19A;
+  border-radius: 4rem;
+}
+.wrapper .navBarLeft .nome{
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  font-size: 1rem;
+}
+.wrapper .navBarLeft .nome small{
+  color: #99A19A;
+  font: .5rem;
+}
+.navBarLeft .menus{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding-right:1rem ;
+}
+.navBarLeft .menus .bgColor{
+  display: flex;
+  align-items: center;
+  color: #99A19A;
+  transition: .4s;
+  padding-block: .2rem;
+}
+.navBarLeft .menus .bgColor:hover{
+  background-color:#011403 ;
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  border-left: 2px solid #fcf6f6;
+  color: #fcf6f6;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation:bgColor 1s normal forwards;
+}
+
+
+@keyframes bgColor {
+
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.menus .menusBody{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: row wrap;
+    gap:1rem;
+    padding-inline: 1.3rem;
+}
+.menus .menusBody .menusIcon .spanIcon{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: .5rem;
+}
+.menus .menusBody .menusIcon .spanTitle{
+  font-size: 1rem;
+}

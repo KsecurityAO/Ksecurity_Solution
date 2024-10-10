@@ -1,0 +1,87 @@
+.title{
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.btnLegi{
+    box-shadow: 0 0 0 1px #99A19A;
+    color: #99A19A;
+    font-weight: 300;
+    
+}
+.progressBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .progressBar .contagem{
+    font-size: 1rem;
+    color: #99A19A;
+    position: fixed;
+    font-weight: 300;
+  }
+
+  .progressBar .contagem .spanPorcentagem{
+         color:rgba(197, 53, 53, 0.959);
+         font-size:2rem;
+  }
+
+   .progressBar .contagem .spanPorcentagemBar{
+    display: block;
+    width: 8.5rem;
+    height: 1px;
+    background-color: #99A19A;
+    margin-block: .2rem;
+  } 
+  .servidoresPutBar{
+   display: inline-block;
+   content: '';
+   background-color: #99A19A;
+   width: 1px;
+   height: 7rem;
+  }
+   .wrapperTags span{
+    font-weight: 200;
+  }
+   .wrapperTags span .span{
+    font-weight: 200;
+    font-size: 3rem;
+  }
+  .wrapperDispoCliente span{
+    font-weight: 200;
+  }
+
+  @media (max-width:48rem){
+    .servidoresPutBar{
+      display: none;
+     }
+
+    .progressBar .contagem .spanPorcentagemBar{
+      display: none;
+    }
+
+    .wrapperFather{
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .wrapperTags{
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .wrapperDispoCliente{
+     font-weight: 200;
+    }
+  
+    .table{
+     display: none;
+    }
+  }

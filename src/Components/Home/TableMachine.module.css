@@ -1,0 +1,52 @@
+ .table{
+padding: 1rem;
+max-width: 68rem;
+} 
+.cabecalho{
+  color:#fcf6f6;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+  text-align: left;
+}
+.colorBodyTable{
+  color:#99A19A;
+  font-size:.8rem;
+}
+.iconSystem{
+  font-size:.8rem
+}
+.hedaTable{
+  color:#99A19A;
+}
+@media (max-width:42rem){
+  .table{
+    max-width: 30rem;
+  }
+  .hedaTable{
+    font-size: .8rem;
+  }
+  .cabecalho{
+    text-align: center;
+    font-size: .6rem;
+    padding-bottom: .3rem;
+  }
+  .colorBodyTable{
+    font-size:.6rem;
+    text-align: center;
+  }
+}
+@media (max-width:360px){
+  .table{
+    width:10rem
+  }
+  .cabecalho{
+    text-align: center;
+    font-size: .6rem;
+    text-transform:lowercase;
+  }
+  .tableMaquina{
+    font-size: .9rem;
+    border-bottom: 1px solid currentColor;
+  }
+}

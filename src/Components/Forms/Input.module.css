@@ -1,0 +1,19 @@
+.input{
+  padding: .4rem 1.1rem;
+  border-radius: .5rem;
+  width: 90%;
+  background-color: #ffffff;
+  color: #355438;
+  font-size: .8rem;
+  transition: .4s;
+  height:2rem
+}
+.input::placeholder{
+    color: #355438;
+    font-size: .8125rem;
+    font-family: 'Poppins';
+}
+.input:hover,
+.input:focus{
+    box-shadow: 0 0 0 2px #417c48, 0 0 0 2px #066610d0;
+}

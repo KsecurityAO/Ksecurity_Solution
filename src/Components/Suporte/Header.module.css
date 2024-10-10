@@ -1,0 +1,42 @@
+/* Init Input */
+
+.inputSearch{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputSearch input{ 
+  width:100%;
+  border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  padding:.8rem;
+  padding-left: 1rem;
+  font-weight: 300;
+  border: 1px solid #355438;
+  border-right: none;
+  font-size: .9rem;
+  background-color: rgba(9, 15, 10, 0.582);
+  outline: none;
+}
+
+.inputSearch input::placeholder{ 
+  color: #99A19A;
+}
+/* End Input */
+
+/* Btn Procurar */
+.btnProcurar{
+    background-color: rgba(9, 15, 10, 0.582);
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    padding:.7rem;
+    font-size: 1.5rem;
+    border: 1px solid #355438;
+    border-left: none;
+}
+section .h3{
+    color: #339941;
+    font-size: 3rem;
+    font-weight: 800;
+}

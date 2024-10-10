@@ -1,0 +1,21 @@
+.title{
+    font-weight: 200;
+}
+ .host span{
+    font-weight: 300; 
+}
+.progressBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.progressBar .contagem{
+  font-size: .9rem;
+  position: absolute;
+  color: rgb(221, 86, 86);
+}
+.btnDetail{
+    font-weight: 200;
+    font-size:.9rem;
+}

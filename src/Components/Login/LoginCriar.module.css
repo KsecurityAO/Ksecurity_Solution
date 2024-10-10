@@ -1,0 +1,198 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding-top: 8rem;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  /* Estlizando as formas  */
+  
+  .wrapper .forma1,
+   .wrapper .forma2,
+   .wrapper .forma3,
+   .wrapper .forma4{
+  position: absolute;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 20rem;
+  background-color: #021B05;
+  box-shadow: 0 0 1px #99A19A;
+  }
+  .forma1{
+    bottom:290px;
+    left:182px;
+  }
+  .forma2{
+    top:90px;
+    right:180px;
+  }
+  .wrapper .forma3{
+    bottom: -101px;
+    left: -43px;
+    height: 15rem;
+    width: 15rem;
+  }
+  .wrapper .forma4{
+    bottom: -101px;
+    right: -43px;
+    height: 15rem;
+    width: 15rem;
+  }
+  .wrapper .forma1{
+   animation: animeScale1 1s ease-in-out infinite alternate;
+  }
+  .wrapper .forma2{
+    animation: animeScale2 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes animeScale1 {
+  
+    0% {
+      bottom: 290px;
+    }
+    100% {
+      bottom: 330px;
+    }
+  }
+  @keyframes animeScale2 {
+    0% {
+      top:90px;
+    }
+    100% {
+      top:180px;
+    }
+  }
+  
+  /* Estilizacao do texto Logar/Cadastrar */
+  .wrapper .textLogin{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 15rem;
+  }
+  .wrapper .textLogin a{
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .4s;
+    color: #99A19A;
+  }
+  .wrapper .textLogin a:hover{
+    transform: scale(1.02);
+  }
+  .wrapper .textLogin a .active{
+    color: #ffffff;
+  }
+  .wrapper .textLogin a::after{
+    content:'';
+    display:block;
+    height: 2px;
+    width: 100%;
+    background-color: #99A19A;
+  }
+  
+  /* Estilizacao de todo componente */
+  .wrapper .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column wrap;
+    background-color: rgba(14,81,23,.6);
+    box-shadow: 0 0 20px #000000;
+    border-radius: .6rem;
+    gap: 1rem;
+    width: 25rem;
+    height: 30.1rem;
+  
+  }
+  
+  /* Estilizacao do dos forms */
+  .login .form{
+   display: flex;
+   flex-flow:column wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   width: 20rem;
+  }
+  
+  /* Estlizacao do Logo */
+  .login img{
+    width: 7rem;
+    height:6.9rem;
+  }
+  .login .button{
+  margin-top: 1rem;
+  }
+  
+  /* Estlizacao do texto Esqueceu a senha */
+  .login .forgot{
+   font-weight: 300;
+   padding-bottom: 2rem;
+   padding-top: 2rem;
+   transition: .4s;
+  }
+  .login .forgot:hover{
+   transform: scale(1.02);
+  }
+  .login .forgot::after{
+   content: '';
+   display: block;
+   width: 100%;
+   height: 1px;
+   background-color: #ffffff;
+  }
+  
+  /* Estilizacao para mobile */
+  @media (max-width:65rem){
+  
+    .wrapper .forma3,
+    .wrapper .forma4{
+      display: none;
+   }
+    .wrapper .forma1,
+    .wrapper .forma2{
+      height: 6rem;
+      width:6rem;
+   }
+   .wrapper .forma1{
+    bottom:290px;
+    left:10px;
+  }
+  .wrapper .forma2{
+    top:90px;
+    right:10px;
+  }
+  }
+  @media (max-width:44rem){
+    .wrapper{
+      justify-content: start;
+      padding-inline:1rem;
+    }
+    .wrapper .textLogin{
+      width: 12rem;
+    }
+  
+    .wrapper .login{
+      width: 20rem;
+      height: 28rem;
+    }
+    .login img{
+      width:4rem;
+      height:3rem;
+    }
+  
+    .login .form{
+      width: 16.1rem;
+     }
+  
+     .wrapper .forma1,
+     .wrapper .forma2{
+      display: none;
+    }
+  }
