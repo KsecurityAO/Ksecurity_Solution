@@ -16,7 +16,7 @@ const Logs = () => {
 
       <div className='flex flex-col flex-wrap gap-4 animeLeft'>
 
-      <div className={`${styles.wrapperAmeacas}  flex flex-wrap justify-around items-center mt-3 gap-6`}>
+      <div className={`${styles.wrapperAmeacas}  flex flex-wrap justify-around items-start mt-3 gap-6`}>
          <MaquinasEmQuarentena/>
          <AmeacasBloqueadas/>
       </div>

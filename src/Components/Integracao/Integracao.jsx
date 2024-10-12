@@ -4,7 +4,7 @@ import styles from './Integracao.module.css'
 const Integracao=()=>{
     return(
         <>
-        <section>
+        <section className='max-h-lvh'>
           <div>
             <h3>Integracao</h3>
         </div>

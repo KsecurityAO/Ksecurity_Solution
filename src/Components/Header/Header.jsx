@@ -17,12 +17,11 @@ const {menu, setMenu}=useContext(NavContext)
 
 const mediaConfig=useMedia('(max-width:40rem)') 
   return (
-    <header className={`${styles.header}`}>
-      
-      <nav className={`${styles.navBar} container`}>
+
+    <header className={`${styles.header}`}>  
+      <nav className={`${styles.navBar} container py-3`}>
 
         <div className={styles.logo}>
-
         <div className={styles.logoKsecu}>
           <img src={Logo1} alt='Erro ao carregar logo'/>
         </div>
@@ -31,11 +30,8 @@ const mediaConfig=useMedia('(max-width:40rem)')
         :
         <button className={styles.menuIcon} onClick={()=>setMenu(!menu)}>  </button>
         }
-
-        
         </div>
-       
-       
+        
         <div className={styles.configuracao}>
 
         <div className={styles.alert}>
@@ -85,7 +81,6 @@ const mediaConfig=useMedia('(max-width:40rem)')
           
         </div>
 
-       
       </nav>
     </header>
   )

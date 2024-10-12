@@ -4,13 +4,13 @@ import { LiaSearchSolid } from "react-icons/lia";
 
 const Header = () => {
   return (
-    <section className=' bg-Bgreen-transparent rounded-md flex flex-wrap justify-center items-center flex-col w-full py-4'>
+    <section className=' bg-Bgreen-transparent rounded-md flex flex-wrap justify-center items-center w-full flex-col py-4'>
            
-        <h3 className={styles.h3}> <span>K</span>Security Pro</h3>
-        <h4>Em que podemos ajudar</h4>
+        <h3 className={styles.h3}> Suporte </h3>
+        <p>Em que podemos ajudar por agora ?</p>
         
         <form className={`${styles.inputSearch}`}>
-            <input type="search" placeholder='Procure por nome ou ip' />
+            <input type="search" placeholder='Informe aqui por favor' />
             <button className={`${styles.btnProcurar} text-darkGreen`}><LiaSearchSolid/></button>
         </form>
 
