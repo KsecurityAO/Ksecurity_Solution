@@ -10,11 +10,11 @@ const Suporte = () => {
       <section className={`containerApp flex flex-wrap flex-col h-lvh justify-start items-center gap-4 w-full pt-3`}>
          {/* Header Component */}
           <Header/>
-      
+      {/* End Header */}
       <div className='flex flex-wrap justify-around items-center border w-full p-3'>
           <div className=' bg-Bgreen-transparent h-40'>
                 <h3>Perguntas Frequentes</h3>
-                <h3>Suporte</h3>
+                
             </div>
 
             <div className='bg-Bgreen-transparent h-40'>

@@ -7,12 +7,7 @@ const Header = () => {
     <section className=' bg-Bgreen-transparent rounded-md flex flex-wrap justify-center items-center w-full flex-col py-4'>
            
         <h3 className={styles.h3}> Suporte </h3>
-        <p>Em que podemos ajudar por agora ?</p>
-        
-        <form className={`${styles.inputSearch}`}>
-            <input type="search" placeholder='Informe aqui por favor' />
-            <button className={`${styles.btnProcurar} text-darkGreen`}><LiaSearchSolid/></button>
-        </form>
+        <p className='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
    </section>
   )

@@ -1,11 +1,13 @@
 import React from 'react'
-
+import { FaLinkedin } from "react-icons/fa";
+import { IoLogoFacebook } from "react-icons/io";
+import { LuInstagram } from "react-icons/lu";
 const Footer = () => {
   return (
     <footer className='bg-Bgreen-transparent rounded-md flex items-center justify-center gap-4 w-full'>
-      <div>Facebook</div>
-      <div>LinkedIn</div>
-      <div>Instagram</div>
+      <div><FaLinkedin/></div>
+      <div><IoLogoFacebook/></div>
+      <div><LuInstagram/></div>
       <div>X</div>
     </footer>
   )
