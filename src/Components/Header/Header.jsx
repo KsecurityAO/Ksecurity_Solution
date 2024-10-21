@@ -25,7 +25,7 @@ const mediaConfig=useMedia('(max-width:40rem)')
         <div className={styles.logoKsecu}>
           <img src={Logo1} alt='Erro ao carregar logo'/>
         </div>
-
+        
         {mediaConfig ? <button className={`${styles.chamaMenuEmMobile} text-whiteText bg-Black p-2 rounded-md`} onClick={()=>setMenu(!menu)}><SlArrowRight/></button>
         :
         <button className={styles.menuIcon} onClick={()=>setMenu(!menu)}>  </button>

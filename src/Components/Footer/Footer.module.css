@@ -1,0 +1,31 @@
+.socialMidia{
+    background-color: #010f02a9;
+    padding: .5rem;
+}
+div .footerLogo{
+    flex:20%;
+  
+}
+div .footerQuemSomos{
+    flex:30%;
+  
+}
+div .footerContactos{
+    flex:20%;
+  
+}
+.title{
+    font-size: 1rem;
+    font-weight: 300;
+   }
+div .text{
+    font-weight: 300;
+    font-size: .8rem;
+}
+ .fBody::after{
+    content:'';
+    display:inline-block;
+    background-color:#99A19A;
+    height:2px;
+    width:100%
+}

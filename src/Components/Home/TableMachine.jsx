@@ -5,9 +5,11 @@ import { AiOutlineWindows } from "react-icons/ai";
 import { IoIosArrowDown } from "react-icons/io";
 import {Link} from 'react-router-dom'
 import useMedia from '../../Hooks/useMeida'
+// import { NavContext } from '../../NavContext';
 
 const TableMachine = () => {
-  const tableMaquina=useMedia('(max-width:360px)')
+  // const {menu}=React.useContext(NavContext)
+  const tableMaquina=useMedia('(max-width:52rem)')
 
   return (
     <> 

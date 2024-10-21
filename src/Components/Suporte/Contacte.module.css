@@ -1,0 +1,45 @@
+.form{
+    max-width:18rem;
+    margin:0 auto;
+}
+.form input{
+    padding: .5rem .5rem;
+    font-size: .8rem;
+    width: 100%;
+    outline:none;
+    background: #010f02a9;
+    border-radius:.4rem;
+    transition:.4s;
+}
+.form input:hover,
+.form input:focus{
+    box-shadow: 0 0 0 2px #355438;
+}
+.form textarea{
+    width:100%;
+    padding: .4rem .5rem;
+    background: #010f02a9;
+    border-radius:.4rem;
+    outline:none;
+    border:none;
+    transition:.4s;
+    resize: none;
+    font-size: .9rem;
+}
+.form input::placeholder,
+.form textarea::placeholder{
+   font-weight:200;
+}
+.form textarea:hover,
+.form textarea:focus{
+    box-shadow: 0 0 0 2px #355438;
+}
+
+.form button{
+    background:#339941;
+    padding:.5rem .8rem;
+    border-radius:.2rem;
+    font-weight:200;
+    transition:.4s;
+    font-size:.9rem;
+}

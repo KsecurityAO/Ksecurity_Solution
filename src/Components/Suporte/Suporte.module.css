@@ -1,6 +1,43 @@
+
 .phoneCall{
     position: fixed;
-    bottom:15px;
-    right: 15px;
+    top:0px;
+    right: 0px;
 }
 /* End btn Procurar */
+
+ .title{
+ font-size: 1rem;
+ font-weight: 300;
+}
+
+.Sperguntas{
+    flex:60%
+}
+
+.Scontact{
+    flex:20%
+}
+
+/* Response */
+@media (max-width:49rem){
+    .Sheader{
+        margin-inline: .8rem;
+    }
+
+    .contactWrapper{
+        border:1px solid red;
+        display:flex; 
+        flex-flow:column wrap;
+        justify-content:center;
+        align-items: center;
+        gap:1rem;
+        margin-inline:.8rem;
+    }
+    .contactWrapper .Sperguntas{
+        text-align:center;
+    }
+    .Sfooter{
+        border:1px solid red;
+    }
+}

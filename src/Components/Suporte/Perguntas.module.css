@@ -1,0 +1,17 @@
+ .Ptitle{
+    font-weight:300;
+}
+.Ptext{
+    font-size: .8rem;
+    font-weight: 300;
+}
+form{
+    padding-top:.8rem ;
+}
+form button{
+    background:#339941;
+    padding:.5rem .8rem;
+    border-radius:.2rem;
+    font-weight:200;
+    transition:.4s;
+}

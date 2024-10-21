@@ -19,11 +19,18 @@ max-width: 68rem;
 .hedaTable{
   color:#99A19A;
 }
+
+/* Responsive */ 
+@media (max-width:52rem){
+  table .iconSystem{
+    display: none;
+  }
+}
 @media (max-width:42rem){
   .table{
     max-width: 30rem;
   }
-  .hedaTable{
+  .hedaTable span{
     font-size: .8rem;
   }
   .cabecalho{

@@ -1,35 +1,50 @@
 import React from 'react'
 import Header from './Header'
 import Footer from '../Footer/Footer'
-import Phone from './Phone'
+import { MdOutlineMail } from "react-icons/md";
 import styles from './Suporte.module.css'
+import Contacte from './Contacte'
+import Perguntas from './Perguntas'
 
 const Suporte = () => {
   return (
     <>
-      <section className={`containerApp flex flex-wrap flex-col h-lvh justify-start items-center gap-4 w-full pt-3`}>
+      <section className={`animeLeft containerApp flex flex-wrap flex-col  items-center justify-center gap-8 pt-3`}>
+
          {/* Header Component */}
+        <div className={`${styles.Sheader} w-full`}>
           <Header/>
-      {/* End Header */}
-      <div className='flex flex-wrap justify-around items-center border w-full p-3'>
-          <div className=' bg-Bgreen-transparent h-40'>
-                <h3>Perguntas Frequentes</h3>
-                
-            </div>
+        </div>
+         {/* End Header */}
 
-            <div className='bg-Bgreen-transparent h-40'>
-                <h3>Instalacao</h3>
-                <h3>Assista agora o video de instalacao da solucao</h3>
+      {/* Find questions frequentily and Contacts */}
+      <div className={` ${styles.contactWrapper} flex flex-wrap justify-around  gap-4`}>
+          
+        {/* Questions  */}
+          <div className={`${styles.Sperguntas} px-4 pb-2 bg-Bgreen-transparent   rounded-md `}>
+                  <Perguntas/>
+          </div>
+        {/* End questios */}
+
+        {/* init Forms for contacts */}
+            <div className={`${styles.Scontact} px-4 py-2  bg-Bgreen-transparent rounded-md `}>
+                <h3 className={`${styles.title} flex items-center justify-between text-whiteText `}> <span> Contacte nos </span> <span className='text-whiteText'><MdOutlineMail /></span></h3>
+                <Contacte/>
             </div>
+            {/* End Contacts */}
      </div>
+  {/* End Questions and contacts */}
 
-    <div className={`${styles.phoneCall}`}>
+       {/* Icon call */}
+   {/* <div className={`${styles.phoneCall} `}>
       <Phone/>
-    </div>
+    </div>  */}
+    {/* End call */}
 
-    <Footer/>
-
-      </section>
+    <div className={`${styles.Sfooter}`}>
+            <Footer/>
+    </div> 
+  </section>
     </>
   )
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './Header.module.css'
-import { LiaSearchSolid } from "react-icons/lia";
 
 const Header = () => {
   return (
-    <section className=' bg-Bgreen-transparent rounded-md flex flex-wrap justify-center items-center w-full flex-col py-4'>
+
+    <section className=' text-start'>
            
-        <h3 className={styles.h3}> Suporte </h3>
-        <p className='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <h3 className={`${styles.h3} text-whiteText`}>Suporte</h3>
+        {/* <p className={`${styles.text} text-center text-whiteText`}>Estamos aqui para garantir que você tenha a melhor experiência com nossos serviços de cibersegurança. Nossa equipe dedicada de especialistas está pronta para ajudar em todas as etapas, desde a configuração inicial até a resolução de problemas complexos. .</p> */}
 
    </section>
   )
