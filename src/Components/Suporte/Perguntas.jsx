@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Perguntas.module.css' 
+import { FiArrowUpRight } from "react-icons/fi";
 
 const Perguntas = () => {
 
@@ -28,7 +29,10 @@ const Perguntas = () => {
        </p>
       
     <form>
-      <button className='text-sm'>Download</button>
+      <button className='text-sm flex flex-wrap justify-center items-center gap-1'>
+       <span>Termos de uso</span> 
+       <span><FiArrowUpRight/></span>
+      </button>
     </form>
   
     </div>

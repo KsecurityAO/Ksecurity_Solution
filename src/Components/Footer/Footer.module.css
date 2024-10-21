@@ -29,3 +29,27 @@ div .text{
     height:2px;
     width:100%
 }
+
+@media (max-width:53rem){
+
+    .fBody{
+        display:flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    div .footerLogo{
+        flex:20%;
+        border: 1px solid red;
+      
+    }
+    div .footerQuemSomos{
+        flex:30%;
+        border: 1px solid red;
+      
+    }
+    div .footerContactos{
+        flex:20%;
+      
+    }   
+}

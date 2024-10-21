@@ -13,7 +13,7 @@ const Footer = () => {
 
     <footer className='bg-Bgreen rounded-md flex flex-wrap flex-col items-center gap-1'>
 
-    <div className={`${styles.fBody} flex flex-wrap justify-around gap-8 items-start px-3 pt-2`}>
+    <div className={`${styles.fBody} flex flex-wrap justify-around md:gap-8 gap-4 items-start px-3 pt-2`}>
 
         <div className={styles.footerLogo}>
           <img src={Logo} alt="Carregando logo"/>

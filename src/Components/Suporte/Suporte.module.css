@@ -20,24 +20,34 @@
 }
 
 /* Response */
-@media (max-width:49rem){
+@media (max-width:53rem){
     .Sheader{
         margin-inline: .8rem;
     }
 
     .contactWrapper{
-        border:1px solid red;
+        border:1px solid orange;
         display:flex; 
         flex-flow:column wrap;
         justify-content:center;
         align-items: center;
         gap:1rem;
-        margin-inline:.8rem;
+        
     }
     .contactWrapper .Sperguntas{
         text-align:center;
+        flex: none;
+        
+    }
+    .Sperguntas{
+        flex: none;
+    }
+    
+    .Scontact{
+        flex:20%
     }
     .Sfooter{
         border:1px solid red;
+        
     }
 }

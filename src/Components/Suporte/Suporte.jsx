@@ -9,7 +9,7 @@ import Perguntas from './Perguntas'
 const Suporte = () => {
   return (
     <>
-      <section className={`animeLeft containerApp flex flex-wrap flex-col  items-center justify-center gap-8 pt-3`}>
+      <section className={`animeLeft containerApp flex flex-wrap flex-col  items-center justify-center gap-8 pt-3 border w-100`}>
 
          {/* Header Component */}
         <div className={`${styles.Sheader} w-full`}>
